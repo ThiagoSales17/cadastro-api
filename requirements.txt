@@ -1,0 +1,10 @@
+fastapi>=0.115
+uvicorn[standard]
+pydantic>=2
+pydantic-settings
+pydantic[email]
+sqlalchemy[asyncio]
+asyncpg
+redis[hiredis]
+httpx
+python-jose[cryptography]
